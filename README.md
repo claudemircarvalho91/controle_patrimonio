@@ -1,0 +1,2 @@
+# controle_patrimonio
+Projeto Final da disciplina de Programação para Internet | Software para Controle de Patrimônio | Sobre: Permitir controlar a localização dos bens patrimonais da instituição. Através do sistema deve ser possível obter informações sobre a localização de cada bem existente na instituição e também a relação de bens por localização (sala, departamento ou prédio). Também deve ser possível saber o valor patrimonial que a instituição possui, inclusive calcular sua depreciação.
