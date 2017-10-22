@@ -1,0 +1,65 @@
+Requisitos
+• RF-01: O sistema precisa informar a localização de um bem (Sala e prédio)
+• RF-02: O sistema precisa emitir a relação dos bens por localização (sala, departamento ou
+prédio)
+• RF-03: O sistema precisa mostrar todos os bens de um prédio organizado por categoria
+(Impressoras, Computadores, Móveis, Veículos, etc)
+• RF-04: Uma alteração de um bem patrimonial de local para outro, chama-se “MBP –
+Movimentação de bem patrimonial”. A MBP precisa ser registrada com o data, usuário que
+fez a movimentação, origem e destino do bem.
+• RF-05: Calcular a depreciação do bem
+• RF-06: Cadastrar o Bem Patrimonial
+• Número
+• Descrição
+• Nota fiscal, data da nota e fornecedor;
+• Sala que o bem se encontra
+• Valor do bem
+• Categoria do bem
+• Situação (Incorporado; Baixado)
+• Data da baixa do bem
+• Motivo da baixa do bem
+• RF-07: Categoria do bem
+• Código
+• Nome
+• Descrição: explicação sobre os bens que pertencem a esta categoria
+• Vida útil (em anos)
+• RF-08: Cadastro de departamento
+• Sigla do departamento
+• Nome do departamento
+• Nome do responsável pelo departamento
+• Salas que o departamento ocupa
+• RF-09: Cadastro de Prédios
+• Nome
+• Endereço do prédio
+• RF-10: Cadastro de salas
+• Número da sala
+• Prédio
+• Espaço (comprimento e largura)
+• RF-11: É necessário controlar o acesso ao sistema por meio de usuário e senha. Existem três
+níveis de usuários: funcionário e gerente.
+• Funcionário: exceto o cadastro de usuários e realizar autorização de transferência
+• Chefe de departamento: só pode cadastrar usuários no seu departamento, e pode
+autorizar movimentação de bens patrimoniais.
+• Coordenador do setor de patrimônio: acesso completo ao sistema.
+• RF-12: É necessário controlar as baixas dos bens
+• RF-13: Os bens baixados não devem fazer parte do inventário à partir da data que ele foi
+baixado. Porém, antes da data ele deve continuar aparecendo.
+• RF-14: um chefe de departamento só pode cadastrar usuários do tipo funcionário e que seja
+ligado ao seu departamento.
+• RF-15: o setor de patrimônio poderá cadastrar qualquer tipo de usuário.
+• RF-16: Um departamento não poderá ter dois chefes. Ao nomear um novo chefe o outro
+deverá ser rebaixado para funcionário.
+• RF-17: Os funcionários e chefes de departamento só podem ver movimentações de seu
+próprio de departamento. O chefe de patrimônio pode ver de todos os departamentos.
+• RF-18: Ao incluir o Bem Patrimonial deve ser informado a sala a qual ele será alocado.
+• RF-19: A única forma de alterar a sala de um, depois de inserido, é através de uma MBP.
+• RNF-01: Todos os “relatórios” devem ser emitidos em PDF;
+• RNF-02: Nenhum relatório deve levar mais de 1 minuto para ser emitido;
+• RNF-03: Sistema deve ser feito em PHP com banco de dados Postgres.
+• RNF-04: A usabilidade do sistema deve ser boa, utilizando padrões de interface comumente
+utilizados em sistemas web.
+Modelo de Entidades e Relacionamentos
+Sobre o banco de dados:
+• Nome do banco: patrimonio
+• Usuário: queops
+• Senha: piramide
