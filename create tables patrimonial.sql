@@ -103,7 +103,7 @@ ALTER SEQUENCE "Categoria_codigo_seq" OWNED BY "Categoria".codigo;
 CREATE TABLE "Departamento" (
     sigla character(5) NOT NULL,
     nome character varying(30) NOT NULL
-);
+);;
 
 
 ALTER TABLE "Departamento" OWNER TO queops;
@@ -140,7 +140,7 @@ CREATE SEQUENCE "MBP_numero_seq"
     INCREMENT BY 1
     NO MINVALUE
     NO MAXVALUE
-    CACHE 1;
+    CACHE 1;;
 
 
 ALTER TABLE "MBP_numero_seq" OWNER TO queops;
