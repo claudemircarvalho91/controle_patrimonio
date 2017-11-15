@@ -6,24 +6,24 @@ $titulo_global = 'Sistema de Controle de Patrim&ocirc;nio';
 
 if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' && $_SERVER['REMOTE_ADDR'] != '::1'){
 
-	@define('ROOT','http://localhost:8080/patrimonio');
-   @define('ROOT_ADMIN','http://localhost:8080/patrimonio');
+	@define('ROOT','http://localhost/patrimonio');
+   @define('ROOT_ADMIN','http://localhost/patrimonio');
    
-      $server_db  =  'localhost';
-      $usuario_db =  'postgres';
-      $senha_db   =  'root';
-      $banco_db   =  'patrimonio';
+      $server_db  =  '';
+      $usuario_db =  '';
+      $senha_db   =  '';
+      $banco_db   =  '';
   
    
 }else{
 	
-   @define('ROOT','http://localhost:8080/patrimonio');
-   @define('ROOT_ADMIN','http://localhost:8080/patrimonio');
+   @define('ROOT','http://localhost:/patrimonio');
+   @define('ROOT_ADMIN','http://localhost/patrimonio');
    
-      $server_db  =  'localhost';
-      $usuario_db =  'queops';
-      $senha_db   =  'piramide';
-      $banco_db   =  'patrimonio';
+      $server_db  =  '';
+      $usuario_db =  '';
+      $senha_db   =  '';
+      $banco_db   =  '';
 
 }
 
