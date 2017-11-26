@@ -76,6 +76,7 @@ if($_SESSION['tipo_gestor'] == 'F' || $_SESSION['tipo_gestor'] == 'D'){
                      <? include('includes/atalhos.php'); ?>
 				    </div>
 				</div>
+			    <!-- /action tabs -->
 
 		    	<?
 
@@ -423,11 +424,6 @@ if($_SESSION['tipo_gestor'] == 'F' || $_SESSION['tipo_gestor'] == 'D'){
 	</div>
 	<!-- /content container -->
     
-    
-    
-    
-
-
 	<!-- Footer -->
 	<div id="footer">
 	 <? include('includes/rodape.php'); ?>
