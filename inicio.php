@@ -70,6 +70,8 @@ include('includes/verifica.php');
                      <? include('includes/atalhos.php'); ?>
 				    </div>
 				</div>
+			    <!-- /action tabs -->
+
 
 		  <div class="space30"></div>
 			    <h5 class="widget-name"><i class="icon-home"></i>In&iacute;cio</h5>
@@ -87,6 +89,11 @@ include('includes/verifica.php');
 	</div>
 	<!-- /content container -->
     
+    
+    
+    
+
+
 	<!-- Footer -->
 	<div id="footer">
 	 <? include('includes/rodape.php'); ?>
